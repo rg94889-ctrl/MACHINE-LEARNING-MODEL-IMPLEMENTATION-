@@ -1,0 +1,45 @@
+Notebook Features
+
+Data Exploration:
+
+  Loads a spam/ham email dataset
+
+  Visualizes class distribution
+
+Text Preprocessing:
+
+  Removes punctuation and stopwords
+
+  Applies stemming
+
+  Uses TF-IDF for feature extraction
+
+Model Training:
+
+ Tests multiple algorithms:
+
+   Naive Bayes
+
+   Logistic Regression
+
+   Random Forest
+
+   SVM
+
+  Evaluates using accuracy and cross-validation
+
+Model Evaluation:
+
+  Compares model performance
+
+  Shows confusion matrix
+
+  Displays ROC curve
+
+  Prediction Pipeline:
+
+  Creates an end-to-end pipeline
+
+ Tests on sample emails
+
+Saves the trained model
