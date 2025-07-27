@@ -1,0 +1,20 @@
+class distribution 
+
+  ham     0.865937
+  spam    0.134063
+
+model comparison
+  Model               Test Accuracy  CV Accuracy
+  Logistic Regression     0.9829        0.9740
+  SVM                    0.9821        0.9731
+  Naive Bayes            0.9713        0.9632
+  Random Forest          0.9686        0.9605
+
+sample prediction
+   Email: Congratulations! You've won a $1000 gift card. Click here to claim!
+   Prediction: Spam
+  Probability (Ham: 0.0012, Spam: 0.9988)
+
+   Email: Hi John, just checking in about our meeting tomorrow at 2pm.
+   Prediction: Ham
+   Probability (Ham: 0.9999, Spam: 0.0001)
